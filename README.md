@@ -51,7 +51,7 @@ Did win rate fall because we are selling to a different mix of deals, or because
 
 ### Exploratory Data Analysis
 
-Here is the script of analsis ```/notebooks/eda.ipynb```. You can see the visualizations & the explanations. Also visualiztion are saved in the dir ```/notebooks/insight_images```
+Here is the script of analsis ```/notebooks/eda.ipynb```. You can see the visualizations & the explanations. Also visualiztion are saved in the dir [`/notebooks/insight_images`](./notebooks/insight_images) 
 
 ### Insight Highlights & Metric Highlights
 
@@ -168,4 +168,5 @@ Sql DB: deals, deal_snapshots, deal_features, deal_scores, alerts, segments_metr
 ### What I build next in 1 month
 
 Will start building the system that I mentioned above.
+
 
