@@ -51,7 +51,7 @@ Did win rate fall because we are selling to a different mix of deals, or because
 
 ### Exploratory Data Analysis
 
-Here is the script of analsis ```/notebooks/eda.ipynb```. You can see the visualizations & the explanations.
+Here is the script of analsis ```/notebooks/eda.ipynb```. You can see the visualizations & the explanations. Also visualiztion are saved in the dir ```/notebooks/insight_images```
 
 ### Insight Highlights & Metric Highlights
 
@@ -77,7 +77,8 @@ Here is the script of analsis ```/notebooks/eda.ipynb```. You can see the visual
 
 ### Deal Risk Scoring
 
-Codes are under the ```/src``` dir. The detailed approach for training & inference and how it can be used are in the under the ```/src/readme.md``` file.
+> **Code Reference:** All preprocessing, training, and inference code lives under the [`/src`](./src) directory.  
+> For the detailed training + inference workflow and how to use the risk score in the system, refer to [`/src/README.md`](./src/README.md).
 
 ## Part 4 - Mini System Design
 
@@ -167,3 +168,4 @@ Sql DB: deals, deal_snapshots, deal_features, deal_scores, alerts, segments_metr
 ### What I build next in 1 month
 
 Will start building the system that I mentioned above.
+
